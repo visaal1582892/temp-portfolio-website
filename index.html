@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth select-none scroll-p-16 w-[100vw]">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Datla Rohit Varma">
+    <meta name="description" content="This is Datla Rohit Varma's Portfolio website which provides clear understanding about his skills, project works and personal details.">
+    <meta name="keywords" content="Datla Rohit Varma, Full Stack Web Development, MERN, html, css, javascript, tailwindcss">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>Datla Rohit Varma</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+</head>
+
+<!-- Body element starts here -->
+
+<body class="box-border bg-gradient-to-tl from-slate-900 to-slate-600 w-[100%]">
+
+    <!-- Header starts here -->
+
+    <header id="header" class="flex bg-gradient-to-r from-slate-900 to-slate-700 justify-around bg-contain h-[13vh] md:h-[20vh] items-center w-[100%] shadow-lg shadow-slate-100/30">
+
+        <!-- main Heading Image -->
+
+        <h1 class="flex items-center justify-center h-[90%] w-[60%] lg:w-[30%]"><img src="./public/images/logoText.png" alt="logoText" class="h-[100%] w-[100%]"></h1>
+
+        <!-- static Dark mode toggle -->
+
+        <div class="flex bg-slate-300 w-14 h-8 lg:w-20 lg:h-10 rounded-[15px] justify-center items-center hover:scale-110">
+            <figure class="flex items-center justify-center rounded-r-[15px] h-[100%] w-[50%]">
+                <img src="./public/images/sun.png" alt="lightModeToggle" class="w-[70%]">
+            </figure>
+            <figure class="flex items-center justify-center bg-teal-300 rounded-r-[15px] h-[100%] w-[50%]">
+                <img src="./public/images/moon.png" alt="lightModeToggle" class="w-[70%]">
+            </figure>
+        </div>
+    </header>
+
+    <!-- download resume bar -->
+
+    <button class="btn transform rotate-90 fixed -left-24 top-[60%]">
+        <a target="_blank" href="./public/certificates/resume.pdf">Download Resume</a>
+    </button>
+
+    <!-- main starts here -->
+
+    <main class="flex flex-col items-center w-[100%]">
+
+        <!-- Intro part -->
+
+        <article class="flex flex-col justify-center gap-[20%] items-center w-[100%] h-[80vh] lg:flex-row lg:justify-center lg:gap[20%] lg:h-[67vh]">
+
+            <!-- Profile Picture -->
+
+            <div class="relative w-52 h-52 bg-crossLines rounded-full flex items-center justify-center animate-roll shadow-lg shadow-gray-50 bg-yellow-800 lg:w-96 lg:h-96">
+                <figure class="w-[100%] h-[100%] absolute rounded-full border-4 sm:border-[15px] border-x-transparent border-y-iconColor animate-spin-slow"></figure>
+                <img
+                  src="./public/images/myPhoto.jpeg"
+                  alt="Profile"
+                  class="relative w-[90%] h-[90%] rounded-full inset-0"
+                />
+            </div>
+
+            <!-- Intro Text -->
+
+            <div class="w-[90%] h-[10%] font-bold font-mono text-gray-300 flex flex-col justify-center items-center text-center animate-move  lg:w-[50%] lg:h-[70%] lg:justify-around">
+                <h1 class="text-2xl w-[100%] lg:text-5xl lg:text-start">
+                    Hello I'm
+                </h1>
+                <h1 class="text-iconColor w-[100%] font-extrabold text-4xl font-serif lg:text-6xl lg:text-start">Rohit Varma Datla</h1>
+                <h2 class="w-[100%] font-semibold text-teal-300 font-mono text-3xl lg:text-5xl lg:text-start">
+                    Web Developer
+                </h2>
+                <h3 class="w-[100%] font-semibold text-teal-300 font-mono text-3xl lg:text-5xl lg:text-start">MERN stack</h3>
+                <h3 class="w-[100%] font-semibold text-teal-300 font-mono text-3xl lg:text-5xl lg:text-start">DSA with C++, Java</h3>
+                <figure class="flex w-[100%] justify-center items-center m-6 gap-10 lg:justify-start">
+                    <a href="https://www.linkedin.com/in/rohit-varma-datla-a84360249" target="_blank"><img src="./public/images/linkedinPicture.webp" alt="linkedinPicture" class="imageLink max-h-8"/></a>
+                    <a href="https://github.com/visaal1582892" target="_blank"><img src="./public/images/githubPicture.webp" alt="github" class="imageLink max-h-8"/></a>
+                    <a href="mailto: visaal1582892@gmail.com" target="_blank"><img src="./public/images/emailPicture.webp" alt="emailPicture" class="imageLink max-h-8"/></a>
+                    <a href="https://x.com/visaal1582892" target="_blank"><img src="./public/images/xIcon.png" alt="emailPicture" class="imageLink max-h-8"/></a>
+                </figure>
+            </div>
+            <figure class="flex justify-center items-center bg-gradient-to-br from-iconColor to-teal-300 w-14 h-14 rounded-full m-7 animate-bounce lg:hidden">
+                <a href="#about">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                </a>
+            </figure>
+        </article>
+
+        <!-- Bouncing button -->
+
+        <figure class="justify-center items-center bg-gradient-to-br from-iconColor to-teal-300 w-14 h-14 rounded-full mb-10 animate-bounce hidden lg:flex">
+            <a href="#about">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                  </svg>
+            </a>
+        </figure>
+
+        <!-- navbar starts -->
+
+        <nav class="flex justify-center items-center sticky top-2 w-11/12 bg-iconColor/80 rounded-lg h-[7vh]">
+            <div class="flex justify-around items-center w-full h-fullrounded-lg">
+                <a href="#header" class="navIcon">
+                    <img src="./public/images/homeIcon.png"alt="homeIcon"  class="navIconImage">
+                    <label class="navIconText">Home</label>
+                </a>
+                <a href="#about" class="navIcon">
+                    <img src="./public/images/aboutIcon.png"   alt="aboutIcon" class="navIconImage">
+                    <label class="navIconText">About</label>
+                </a>
+                <a href="#skills" class="navIcon">
+                    <img src="./public/images/skillIcon.png"   alt="skillIcon" class="navIconImage">
+                    <label class="navIconText">Skills</label>
+                </a>
+                <a href="#certifications" class="navIcon">
+                    <img src="./public/images/certificationsIcon.png"   alt="certificationsIcon" class="navIconImage">
+                    <label class="navIconText">Certificates</label>
+                </a>
+                <a href="#projects" class="navIcon">
+                    <img src="./public/images/projectIcon.png" alt="projectIcon" class="navIconImage">
+                    <label class="navIconText">Projects</label>
+                </a>
+                <a href="#contact" class="navIcon">
+                    <img src="./public/images/contactIcon.png" alt="contactIcon" class="navIconImage">
+                    <label class="navIconText">Contact</label>
+                </a>
+            </div>
+        </nav>
+
+        <!-- About starts -->
+
+        <article id="about" class="mt-20 flex flex-col justify-center items-center w-[100%]">
+            <h2 class="subHeading">
+                About
+            </h2>
+            <div class="sectionBackground">
+                <h2 class="text-4xl self-start font-bold text-iconColor font-serif">Rohit Varma Datla</h2>
+                <h3 class="text-teal-300 self-start">Web Developer MERN stack, DSA with C++ and Java</h3>
+                <img src="./public/images/myPhoto.jpeg" alt="myPhoto" class="rounded-lg w-40 h-40 my-4 shadow-lg shadow-gray-300">
+                <p>
+                    Hi there! I'm a dedicated and innovative web developer with a robust foundation in the MERN stack (MongoDB, Express.js, React, Node.js). I excel at crafting dynamic, user-centric web applications that prioritize exceptional user experiences and seamless functionality.
+                </p>
+                <p>
+                    Driven by a passion for continuous learning, I actively engage with the latest industry trends and emerging technologies to refine my skills. I'm eager to explore new opportunities, collaborations, and projects with forward-thinking companies that foster professional growth, where I can contribute meaningfully and help bring innovative ideas to life.
+                </p>
+                <button class="btn"><a href="#skills">View More</a></button>
+            </div>
+        </article>
+
+        <!-- Skills starts -->
+
+        <article id="skills" class="mt-20 flex flex-col justify-center items-center w-[100%]">
+            <h2 class="subHeading">Skills</h2>
+            <div class="flex flex-col justify-center items-center w-[90%] text-2xl font-medium text-gray-300 rounded-lg lg:flex-row lg:justify-evenly">
+
+                <!-- Linear Bar Skills -->
+
+                <section class="sectionBackground gap-8 w-[100%] lg:w-[40%]">
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">HTML/CSS</h3>
+                            <label class="text-sm">90%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-90% to-gray-400 to-10% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">Javascript</h3>
+                            <label class="text-sm">70%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-70% to-gray-400 to-30% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">MERN stack</h3>
+                            <label class="text-sm">80%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-80% to-gray-400 to-20% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">C++</h3>
+                            <label class="text-sm">85%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-85% to-gray-400 to-15% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">Data Structures and Algorithms</h3>
+                            <label class="text-sm">85%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-85% to-gray-400 to-15% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">Java</h3>
+                            <label class="text-sm">80%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-80% to-gray-400 to-20% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                    <div class="linearSkill">
+                        <div class="flex flex-row justify-between">
+                            <h3 class="text-sm">DBMS</h3>
+                            <label class="text-sm">75%</label>
+                        </div>
+                        <div class="w-[100%] h-1.5 bg-gradient-to-r from-iconColor from-75% to-gray-400 to-25% rounded-full lg:w-[100%]">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Circular Bar skills -->
+
+                <section class="sectionBackground grid grid-cols-2 grid-flow-row content-center justify-center items-center justify-items-center w-[100%] lg:w-[40%] lg:gap-3">
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="w-28 h-28 bg-conicGradient75 rounded-full flex justify-center items-center">
+                            <div class="w-[90%] h-[90%] bg-gray-600 rounded-full flex justify-center items-center text-[70%]">
+                                75%
+                            </div>
+                        </div>
+                        <h3 class="text-[65%]">Team Work</h3>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="w-28 h-28 bg-conicGradient80 rounded-full flex justify-center items-center">
+                            <div class="w-[90%] h-[90%] bg-gray-600 rounded-full flex justify-center items-center text-[70%]">
+                                80%
+                            </div>
+                        </div>
+                        <h3 class="text-[65%]">Creativity</h3>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="w-28 h-28 bg-conicGradient85 rounded-full flex justify-center items-center">
+                            <div class="w-[90%] h-[90%] bg-gray-600 rounded-full flex justify-center items-center text-[70%]">
+                                85%
+                            </div>
+                        </div>
+                        <h3 class="text-[65%]">Problem Solving</h3>
+                    </div>
+                    <div class="flex flex-col justify-center items-center">
+                        <div class="w-28 h-28 bg-conicGradient90 rounded-full flex justify-center items-center">
+                            <div class="w-[90%] h-[90%] bg-gray-600 rounded-full flex justify-center items-center text-[70%]">
+                                90%
+                            </div>
+                        </div>
+                        <h3 class="text-[65%]">Communication</h3>
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <!-- Certifications starts -->
+
+        <article id="certifications" class="mt-20 flex flex-col justify-center items-center w-[100%]">
+            <h2 class="subHeading">
+                Certificates
+            </h2>
+            <section class="sectionBackground gap-8 flex-row flex-wrap justify-around">
+                <figure class="card">
+                    <img src="./public/images/intershalaIcon.png" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Full Stack Development-1</h3>
+                        <button class="btn"><a target="_blank" href="./public/certificates/internshala_mern_stack_course_1.png">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/edxIcon.png" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Java Programming</h3>
+                        <button class="btn"><a target="_blank" href="./public/certificates/edx_codio_java_1.1.png">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/guviIcon.png" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Pyhton Programming</h3>
+                        <button class="btn"><a target="_blank" href="./public/certificates/guvi_python.png">View</a></button>
+                    </div>
+                </figure>
+            </section>
+        </article>
+        <article id="projects" class="mt-20 flex flex-col justify-center items-center w-[100%]">
+            <h2 class="subHeading">
+                Projects
+            </h2>
+            <section class="sectionBackground gap-8 flex-row flex-wrap justify-around">
+                <figure class="card">
+                    <img src="./public/images/ecommerceImage.jpg" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">E-Commerce App</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/ECommerceUsingMERN">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/leaveManagement.jpg" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Leave Management</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/LeaveManagementSystem">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/bookBank.jpg" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Book Bank Management</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/BookBank-Management-System">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/blog.jpg" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Basic Blog Page on Movies</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/BasicBlogPage">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/laptop.jpg" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Laptop Price Predictor</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/ArtificialIntelligence/tree/main/MachineLearningProjects/LaptopPricePredictor">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/spam.png" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Sms Spam Classifier</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/ArtificialIntelligence/tree/main/MachineLearningProjects/SmsSpamClassifier">View</a></button>
+                    </div>
+                </figure>
+                <figure class="card">
+                    <img src="./public/images/titanic.jpg" alt="internshalaIcon" class="cardImage">
+                    <div class="cardBody">
+                        <h3 class="text-2xl font-semibold flex font-serif text-iconColor">Survival In Titanic</h3>
+                        <button class="btn"><a target="_blank" href="https://github.com/visaal1582892/ArtificialIntelligence/tree/main/MachineLearningProjects/SurvivalInTitanicIncident">View</a></button>
+                    </div>
+                </figure>
+            </section>
+        </article>
+        <article id="contact" class="mt-20 flex flex-col justify-center items-center w-[100%]">
+            <h2 class="subHeading">
+                Contact
+            </h2>
+            <section class="sectionBackground flex-row flex-wrap justify-around items-center">
+                <fieldset id="suggestionBox" class="flex flex-col flex-nowrap justify-start min-w-[50%] border-[5px] border-double">
+                    <legend class="text-3xl font-sans text-iconColor">Suggestion Box</legend>
+                    <form method="get" action="#" id="form" class="flex flex-col justify-evenly gap-2 p-2">
+                        <Label for="name">Name: </Label>
+                        <input class="textBox" type="text" name="name">
+                        <Label for="email">Email: </Label>
+                        <input class="textBox" type="email" name="email">
+                        <Label for="message">Message: </Label>
+                        <textarea class="textArea" name="message"></textarea>
+                        <input class="btn" type="submit" value="Post"/>
+                    </form>
+                </fieldset>
+                <div class="m-4 text-gray-100 max-w-[80%]">
+                    <p>
+                        Hey there! Thank You for visiting my Portfolio. Please leave your views on my Portfolio or any suggestions in suggestion box. If you have any Job or Internship opportunities for me or just to say Hi, Please connect with me from below platforms. Thank You!
+                    </p>
+                    <figure class="flex w-[100%] justify-around items-center m-6 gap-10">
+                        <a href="https://www.linkedin.com/in/rohit-varma-datla-a84360249" target="_blank"><img src="./public/images/linkedinPicture.webp" alt="linkedinPicture" class="imageLink"/></a>
+                        <a href="https://github.com/visaal1582892" target="_blank"><img src="./public/images/githubPicture.webp" alt="github" class="imageLink"/></a>
+                        <a href="mailto: visaal1582892@gmail.com" target="_blank"><img src="./public/images/emailPicture.webp" alt="emailPicture" class="imageLink"/></a>
+                        <a href="https://x.com/visaal1582892" target="_blank"><img src="./public/images/xIcon.png" alt="emailPicture" class="imageLink"/></a>
+                    </figure>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer class="bg-teal-200 flex justify-center items-center">
+        &copy; 2025 Portfolio. All Rights Reserved.<br>
+        Designed and Developed by Datla Rohit Varma.
+    </footer>
+</body>
+</html>
