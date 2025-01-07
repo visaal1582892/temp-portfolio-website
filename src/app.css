@@ -13,7 +13,7 @@
         @apply h-[40%] lg:hidden;
     }
     .navIconText{
-        @apply text-xs lg:text-xl lg:font-bold lg:font-sans lg:cursor-pointer lg:hover:text-teal-200;
+        @apply text-xs lg:text-xl lg:font-bold lg:font-sans lg:cursor-pointer lg:hover:text-teal-200 lg:focus:text-teal-200;
     }
     .subHeading{
         @apply text-5xl underline font-extrabold font-sans bg-gradient-to-bl from-iconColor to-teal-300 bg-clip-text text-transparent;
